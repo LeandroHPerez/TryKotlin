@@ -19,4 +19,5 @@ fun main(args: Array<String>) {
     //Com propriedade (get)
     println("Quantidade de caracteres: ${frase.length}")
 
+
 }
