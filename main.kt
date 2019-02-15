@@ -5,6 +5,12 @@ fun main(args: Array<String>) {
     //Declaração de variável mutável
     var frase: String = "Hello, World!"
 
+    var fraseDois = "Hello, World 2 sem tipo defino diretamente no fonte"
+
+
+    val fraseImutavelVal: String = "frase imutavel do tipo VAL"
+
+
 
     println("Hello, world!")
 
