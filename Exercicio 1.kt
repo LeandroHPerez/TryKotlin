@@ -51,5 +51,21 @@ fun main(args: Array<String>) {
 
 
 
+    var funcao = fun(ci: IndexedValue<String>){
+        println("${ci.index} - ${ci.value}")
+
+    }
+
+
+    var g: (IndexedValue<String>) -> Unit
+    g = funcao
+
+    val listaCursosSistemasSol3b = listaCursos.filter { it.contains("Sistemas") }
+    //listaCursosSistemasSol3.withIndex().forEach { println(it) }
+
+    listaCursosSistemasSol3b.withIndex().forEach (g) //passa a função como parâmetro
+
+
+
 
 }
